@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.projekt.MyFitApp.MainActivity">
+    <item
+    android:id="@+id/BMIScore"
+    android:orderInCategory="100"
+    android:title="@string/bmi"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/Main"
+        android:orderInCategory="100"
+        android:title="@string/Main"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Scanner"
+        android:orderInCategory="100"
+        android:title="@string/Scanner"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        android:title="@string/Logout"
+        app:showAsAction="never" />
+
+</menu>
