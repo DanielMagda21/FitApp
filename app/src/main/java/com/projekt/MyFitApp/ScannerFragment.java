@@ -60,6 +60,8 @@ public class ScannerFragment extends Fragment {
     /// Set Barcode value in Variable
     /// Using ScannerProduct Class to check if product is already in DataBase
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        ((MainActivity) requireActivity()).setActionBarTitle("Scanner");  /// Setting new Title for This Fragment
+        setHasOptionsMenu(true);
         final Activity activity = getActivity();
         View v = inflater.inflate(R.layout.fragment_scanner, container, false);
         CodeScannerView scannerView = v.findViewById(R.id.scanner_view);

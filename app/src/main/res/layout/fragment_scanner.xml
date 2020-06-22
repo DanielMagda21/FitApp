@@ -13,29 +13,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="108dp"
         android:text="@string/getdata"
         app:layout_constraintBottom_toTopOf="@+id/Scanner"
         app:layout_constraintEnd_toStartOf="@+id/ProductData"
+        app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/NewProduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="292dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="25dp"
+        android:layout_marginBottom="108dp"
         android:text="@string/newproduct"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/Scanner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/ProductData"
